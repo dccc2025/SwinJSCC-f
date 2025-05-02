@@ -22,7 +22,7 @@
 
 <figure style="text-align: center; margin: 5px 0;">
   <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/2.png" 
-       alt="" 
+       alt=信噪比自适应网络"" 
        style="width: 400px;  
               border: 1px solid #ddd;  
               border-radius: 4px;  
@@ -35,7 +35,7 @@
 
 <figure style="text-align: center; margin: 5px 0;">
   <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/3.png" 
-       alt="" 
+       alt="速率自适应网络" 
        style="width: 400px;  
               border: 1px solid #ddd;  
               border-radius: 4px;  
