@@ -17,7 +17,7 @@
               display: block;  
               margin: 0 auto;"> 
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  
-    图1：SwinT Block的改进（SwinT v2 Block）
+    图1：SwinT Block的改进
   </figcaption>
 </figure>
 
