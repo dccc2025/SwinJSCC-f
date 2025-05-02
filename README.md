@@ -9,7 +9,7 @@
 <figure style="text-align: center; margin: 5px 0;">
   <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/1.png" 
        alt="余弦自注意力模块对比图" 
-       style="max-width: 30%;  
+       style="width: 400px;  
               border: 1px solid #ddd;  
               border-radius: 4px;  
               display: block;  
