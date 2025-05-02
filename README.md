@@ -6,15 +6,15 @@
 
 这个工作是我的本科生毕业设计，主要是对Swin Transformer进行改进，提出了SwinJSCC-f模型。在CIFAR10数据集上进行了大量的实验，并且在武汉大学的MVCD数据集上进行了测试，验证了我提出的模型在图像传输中的有效性。SwinJSCC-f模型在SwinJSCC的基础上完全修改了SNR自适应网络和Rate自适应网络，并且按照Swin Transformer对整体的代码框架没有动。同时改了**余弦自注意力、残差后归一化、对数间隔相对位置偏置**等方法，使得模型训练更加稳定，并且有了更好的位置编码，可以涨1-2个点的psnr。（我改行了 大家要发论文的自取idea 给star就行
 
-<figure style="text-align: center; margin: 20px 0;">
+<figure style="text-align: center; margin: 5px 0;">
   <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/1.png" 
        alt="余弦自注意力模块对比图" 
-       style="max-width: 70%;  /* 图片宽度缩小至父容器的70% */
-              border: 1px solid #ddd;  /* 添加浅灰色边框 */
-              border-radius: 4px;  /* 圆角处理 */
-              display: block;  /* 确保图片在居中容器内正确对齐 */
-              margin: 0 auto;">  /* 图片自身水平居中 */
-  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  /* 注释样式 */
+       style="max-width: 30%;  
+              border: 1px solid #ddd;  
+              border-radius: 4px;  
+              display: block;  
+              margin: 0 auto;"> 
+  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  
     图1：传统点积自注意力（左）与余弦自注意力（右）的对比
   </figcaption>
 </figure>
