@@ -8,14 +8,41 @@
 
 <figure style="text-align: center; margin: 5px 0;">
   <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/1.png" 
-       alt="余弦自注意力模块对比图" 
+       alt="Swin Block的改进" 
        style="width: 400px;  
               border: 1px solid #ddd;  
               border-radius: 4px;  
               display: block;  
               margin: 0 auto;"> 
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  
-    图1：传统点积自注意力（左）与余弦自注意力（右）的对比
+    图1：SwinT Block的改进（SwinT v2 Block）
+  </figcaption>
+</figure>
+
+
+<figure style="text-align: center; margin: 5px 0;">
+  <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/2.png" 
+       alt="" 
+       style="width: 400px;  
+              border: 1px solid #ddd;  
+              border-radius: 4px;  
+              display: block;  
+              margin: 0 auto;"> 
+  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  
+    图2：信噪比自适应网络
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin: 5px 0;">
+  <img src="https://raw.githubusercontent.com/dccc2025/SwinJSCC-f/master/readme_imgs/3.png" 
+       alt="" 
+       style="width: 400px;  
+              border: 1px solid #ddd;  
+              border-radius: 4px;  
+              display: block;  
+              margin: 0 auto;"> 
+  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">  
+    图3：速率自适应网络
   </figcaption>
 </figure>
 
