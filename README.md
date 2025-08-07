@@ -75,7 +75,8 @@ python main.py --trainset DIV2K --testset kodak --distortion-metric MSE --model 
 ## Citation
 
 这个我就不发文章了，本人转方向了，但是我的idea确实可以涨2个点左右（psnr），大家给个star就行了。
-有疑问的话 可以留言 可以电联 13801589515（wechat）| 13801589515@163.com （e-mail）
+
+额，大家的疑问是：（1）信噪比自适应网络就是一个特征选择的网络，没和解码器网络必要对称（私以为
 
 ## Acknowledgement
 这篇文章基于SwinJSCC的延申，主干网络的修改参考了Swin Transformer V2的架构设计，SNR自适应网络和Rate自适应网络是自己想的，浅浅改了一下，确实涨点（因为实在觉得原来SwinJSCC的那个SA和RA太怪了）。这些是参考工作 [Swin Transformer](https://github.com/microsoft/Swin-Transformer). [SwinJSCC](https://github.com/semcomm/swinjscc). [Swin Transformer V2](https://github.com/ChristophReich1996/Swin-Transformer-V2/).
